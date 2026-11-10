@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf64-littleriscv", "elf64-littleriscv",
 	      "elf64-littleriscv")
 OUTPUT_ARCH(riscv)
 ENTRY(_start)
-SEARCH_DIR("=/Host/home/yyyy/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+SEARCH_DIR("=/Host/home/wch/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

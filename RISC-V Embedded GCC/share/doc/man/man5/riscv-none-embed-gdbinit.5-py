@@ -133,7 +133,7 @@
 .\" ========================================================================
 .\"
 .IX Title "GDBINIT 5"
-.TH GDBINIT 5 "2022-07-04" "gdb-8.3" "GNU Development Tools"
+.TH GDBINIT 5 "2024-02-28" "gdb-8.3" "GNU Development Tools"
 .\" For nroff, turn off justification.  Always turn off hyphenation; it makes
 .\" way too many mistakes in technical documents.
 .if n .ad l
@@ -142,7 +142,7 @@
 gdbinit \- GDB initialization scripts
 .SH "SYNOPSIS"
 .IX Header "SYNOPSIS"
-/Host/home/yyyy/Work/riscv\-none\-embed\-gcc\-8.2.0\-3.1/linux\-x32/install/riscv\-none\-embed\-gcc/riscv\-none\-embed/lib/gdbinit
+/Host/home/wch/Work/riscv\-none\-embed\-gcc\-8.2.0\-3.1/linux\-x32/install/riscv\-none\-embed\-gcc/riscv\-none\-embed/lib/gdbinit
 .PP
 ~/.gdbinit
 .PP
@@ -158,8 +158,8 @@ the \s-1GDB\s0 manual in node \f(CW\*(C`Sequences\*(C'\fR
 Please read more in
 the \s-1GDB\s0 manual in node \f(CW\*(C`Startup\*(C'\fR
 \&\*(-- shell command \f(CW\*(C`info \-f gdb \-n Startup\*(C'\fR.
-.IP "\fB/Host/home/yyyy/Work/riscv\-none\-embed\-gcc\-8.2.0\-3.1/linux\-x32/install/riscv\-none\-embed\-gcc/riscv\-none\-embed/lib/gdbinit\fR" 4
-.IX Item "/Host/home/yyyy/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib/gdbinit"
+.IP "\fB/Host/home/wch/Work/riscv\-none\-embed\-gcc\-8.2.0\-3.1/linux\-x32/install/riscv\-none\-embed\-gcc/riscv\-none\-embed/lib/gdbinit\fR" 4
+.IX Item "/Host/home/wch/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib/gdbinit"
 System-wide initialization file.  It is executed unless user specified
 \&\s-1GDB\s0 option \f(CW\*(C`\-nx\*(C'\fR or \f(CW\*(C`\-n\*(C'\fR.
 See more in

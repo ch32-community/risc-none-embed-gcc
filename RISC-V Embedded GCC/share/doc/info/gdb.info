@@ -48643,7 +48643,7 @@ File: gdb.info,  Node: gdbinit man,  Next: gdb-add-index man,  Prev: gcore man, 
 gdbinit
 =======
 
-/Host/home/yyyy/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib/gdbinit
+/Host/home/wch/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib/gdbinit
 
 ~/.gdbinit
 
@@ -48655,7 +48655,7 @@ described in *note Sequences::.
 
    Please read more in *note Startup::.
 
-'/Host/home/yyyy/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib/gdbinit'
+'/Host/home/wch/Work/riscv-none-embed-gcc-8.2.0-3.1/linux-x32/install/riscv-none-embed-gcc/riscv-none-embed/lib/gdbinit'
      System-wide initialization file.  It is executed unless user
      specified GDB option '-nx' or '-n'.  See more in *note System-wide
      configuration::.
@@ -55564,11 +55564,11 @@ Node: gdb man1914265
 Node: gdbserver man1920301
 Node: gcore man1927497
 Node: gdbinit man1928619
-Node: gdb-add-index man1929708
-Ref: gdb-add-index1929817
-Node: Copying1930691
-Node: GNU Free Documentation License1968252
-Node: Concept Index1993399
-Node: Command and Variable Index2132426
+Node: gdb-add-index man1929706
+Ref: gdb-add-index1929815
+Node: Copying1930689
+Node: GNU Free Documentation License1968250
+Node: Concept Index1993397
+Node: Command and Variable Index2132424
 
 End Tag Table

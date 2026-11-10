@@ -1,5 +1,5 @@
 /* Generated automatically by the program 'build/genpreds'
-   from the machine description file '/Host/home/yyyy/Work/riscv-none-embed-gcc-8.2.0-3.1/sources/riscv-gcc-8.2.0-3.1/gcc/config/riscv/riscv.md'.  */
+   from the machine description file '/Host/home/wch/Work/riscv-none-embed-gcc-8.2.0-3.1/sources/riscv-gcc-8.2.0-3.1/gcc/config/riscv/riscv.md'.  */
 
 #ifndef GCC_TM_PREDS_H
 #define GCC_TM_PREDS_H

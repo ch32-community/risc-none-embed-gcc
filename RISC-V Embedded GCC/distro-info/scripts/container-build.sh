@@ -275,7 +275,7 @@ then
 
   # New extended list, based on SiFive list.
   # Added: rv32imaf-ilp32f--
-  GCC_MULTILIB=${GCC_MULTILIB:-"rv32e-ilp32e-- rv32ec-ilp32e-- rv32ecxw-ilp32e-- rv32em-ilp32e--c rv32eac-ilp32e-- rv32emac-ilp32e-- rv32i-ilp32--c rv32im-ilp32--c rv32imf-ilp32f--c rv32imaf-ilp32f-- rv32iac-ilp32-- rv32imac-ilp32-- rv32imacxw-ilp32-- rv32imafcxw-ilp32f-- rv32imafc-ilp32f-rv32imafdc- rv32imafdc-ilp32d-- rv64i-lp64--c rv64im-lp64--c rv64imf-lp64f--c rv64iac-lp64-- rv64imac-lp64-- rv64imafc-lp64f-rv64imafdc- rv64imafdc-lp64d--"}
+  GCC_MULTILIB=${GCC_MULTILIB:-"rv32e-ilp32e-- rv32ec-ilp32e-- rv32emc-ilp32e-- rv32emcxw-ilp32e-- rv32ecxw-ilp32e-- rv32em-ilp32e--c rv32eac-ilp32e-- rv32emac-ilp32e-- rv32i-ilp32--c rv32im-ilp32--c rv32imf-ilp32f--c rv32imaf-ilp32f-- rv32iac-ilp32-- rv32imac-ilp32-- rv32imacxw-ilp32-- rv32imafcxw-ilp32f-- rv32imafc-ilp32f-rv32imafdc- rv32imafdc-ilp32d-- rv64i-lp64--c rv64im-lp64--c rv64imf-lp64f--c rv64iac-lp64-- rv64imac-lp64-- rv64imafc-lp64f-rv64imafdc- rv64imafdc-lp64d--"}
 
   GCC_MULTILIB_FILE=${GCC_MULTILIB_FILE:-"t-elf-multilib"}
 

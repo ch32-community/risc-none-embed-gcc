@@ -3704,37 +3704,37 @@ extern _iq _atoIQN(const char *A, long B);
 *******************************************************************************/
 #define _atoIQ(A)               _atoIQN(A, GLOBAL_Q)
 
-extern int __IQNtoa(char *A, const char *B, _iq C, int D);
-#define _IQ30toa(A, B, C)       __IQNtoa(A, B, C, 30);
-#define _IQ29toa(A, B, C)       __IQNtoa(A, B, C, 29);
-#define _IQ28toa(A, B, C)       __IQNtoa(A, B, C, 28);
-#define _IQ27toa(A, B, C)       __IQNtoa(A, B, C, 27);
-#define _IQ26toa(A, B, C)       __IQNtoa(A, B, C, 26);
-#define _IQ25toa(A, B, C)       __IQNtoa(A, B, C, 25);
-#define _IQ24toa(A, B, C)       __IQNtoa(A, B, C, 24);
-#define _IQ23toa(A, B, C)       __IQNtoa(A, B, C, 23);
-#define _IQ22toa(A, B, C)       __IQNtoa(A, B, C, 22);
-#define _IQ21toa(A, B, C)       __IQNtoa(A, B, C, 21);
-#define _IQ20toa(A, B, C)       __IQNtoa(A, B, C, 20);
-#define _IQ19toa(A, B, C)       __IQNtoa(A, B, C, 19);
-#define _IQ18toa(A, B, C)       __IQNtoa(A, B, C, 18);
-#define _IQ17toa(A, B, C)       __IQNtoa(A, B, C, 17);
-#define _IQ16toa(A, B, C)       __IQNtoa(A, B, C, 16);
-#define _IQ15toa(A, B, C)       __IQNtoa(A, B, C, 15);
-#define _IQ14toa(A, B, C)       __IQNtoa(A, B, C, 14);
-#define _IQ13toa(A, B, C)       __IQNtoa(A, B, C, 13);
-#define _IQ12toa(A, B, C)       __IQNtoa(A, B, C, 12);
-#define _IQ11toa(A, B, C)       __IQNtoa(A, B, C, 11);
-#define _IQ10toa(A, B, C)       __IQNtoa(A, B, C, 10);
-#define _IQ9toa(A, B, C)        __IQNtoa(A, B, C, 9);
-#define _IQ8toa(A, B, C)        __IQNtoa(A, B, C, 8);
-#define _IQ7toa(A, B, C)        __IQNtoa(A, B, C, 7);
-#define _IQ6toa(A, B, C)        __IQNtoa(A, B, C, 6);
-#define _IQ5toa(A, B, C)        __IQNtoa(A, B, C, 5);
-#define _IQ4toa(A, B, C)        __IQNtoa(A, B, C, 4);
-#define _IQ3toa(A, B, C)        __IQNtoa(A, B, C, 3);
-#define _IQ2toa(A, B, C)        __IQNtoa(A, B, C, 2);
-#define _IQ1toa(A, B, C)        __IQNtoa(A, B, C, 1);
+extern int _IQNtoa(char *A, const char *B, _iq C, int D);
+#define _IQ30toa(A, B, C)       _IQNtoa(A, B, C, 30);
+#define _IQ29toa(A, B, C)       _IQNtoa(A, B, C, 29);
+#define _IQ28toa(A, B, C)       _IQNtoa(A, B, C, 28);
+#define _IQ27toa(A, B, C)       _IQNtoa(A, B, C, 27);
+#define _IQ26toa(A, B, C)       _IQNtoa(A, B, C, 26);
+#define _IQ25toa(A, B, C)       _IQNtoa(A, B, C, 25);
+#define _IQ24toa(A, B, C)       _IQNtoa(A, B, C, 24);
+#define _IQ23toa(A, B, C)       _IQNtoa(A, B, C, 23);
+#define _IQ22toa(A, B, C)       _IQNtoa(A, B, C, 22);
+#define _IQ21toa(A, B, C)       _IQNtoa(A, B, C, 21);
+#define _IQ20toa(A, B, C)       _IQNtoa(A, B, C, 20);
+#define _IQ19toa(A, B, C)       _IQNtoa(A, B, C, 19);
+#define _IQ18toa(A, B, C)       _IQNtoa(A, B, C, 18);
+#define _IQ17toa(A, B, C)       _IQNtoa(A, B, C, 17);
+#define _IQ16toa(A, B, C)       _IQNtoa(A, B, C, 16);
+#define _IQ15toa(A, B, C)       _IQNtoa(A, B, C, 15);
+#define _IQ14toa(A, B, C)       _IQNtoa(A, B, C, 14);
+#define _IQ13toa(A, B, C)       _IQNtoa(A, B, C, 13);
+#define _IQ12toa(A, B, C)       _IQNtoa(A, B, C, 12);
+#define _IQ11toa(A, B, C)       _IQNtoa(A, B, C, 11);
+#define _IQ10toa(A, B, C)       _IQNtoa(A, B, C, 10);
+#define _IQ9toa(A, B, C)        _IQNtoa(A, B, C, 9);
+#define _IQ8toa(A, B, C)        _IQNtoa(A, B, C, 8);
+#define _IQ7toa(A, B, C)        _IQNtoa(A, B, C, 7);
+#define _IQ6toa(A, B, C)        _IQNtoa(A, B, C, 6);
+#define _IQ5toa(A, B, C)        _IQNtoa(A, B, C, 5);
+#define _IQ4toa(A, B, C)        _IQNtoa(A, B, C, 4);
+#define _IQ3toa(A, B, C)        _IQNtoa(A, B, C, 3);
+#define _IQ2toa(A, B, C)        _IQNtoa(A, B, C, 2);
+#define _IQ1toa(A, B, C)        _IQNtoa(A, B, C, 1);
 /*******************************************************************************
 * Function Name  : _IQtoa
 * Description    : 将IQ格式数转换成一个字符串。
@@ -3744,7 +3744,7 @@ extern int __IQNtoa(char *A, const char *B, _iq C, int D);
 *                : C:要转换的IQ格式数。
 * Return         : 返回C的字符串形式。
 *******************************************************************************/
-#define _IQtoa(A, B, C)         __IQNtoa(A, B, C, GLOBAL_Q)
+#define _IQtoa(A, B, C)         _IQNtoa(A, B, C, GLOBAL_Q)
 
 
 #define _IQ30abs(A)             (((A) < 0) ? - (A) : (A))
