@@ -37,7 +37,8 @@ jobs:
           SOURCE_DIRECTORY: ${{ matrix.directory }}
           ARCHIVE_NAME: ${{ matrix.archive }}
         run: |
-          zip -r "${RUNNER_TEMP}/${ARCHIVE_NAME}.zip" "$SOURCE_DIRECTORY"
+          cd "$SOURCE_DIRECTORY"
+          zip -r "${RUNNER_TEMP}/${ARCHIVE_NAME}.zip" .
 
       - name: Attach archive to release
         shell: bash
